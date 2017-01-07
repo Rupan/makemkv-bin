@@ -1,0 +1,24 @@
+Source: makemkv-bin
+Section: video
+Priority: optional
+Maintainer: Michael Mohr <akihana@gmail.com>
+Build-Depends: debhelper (>=9), makemkv-oss
+Standards-Version: 3.9.8
+Homepage: http://www.makemkv.com/
+Vcs-Git: https://github.com/Rupan/makemkv-bin.git
+Vcs-Browser: https://github.com/Rupan/HLLib/makemkv-bin
+
+Package: makemkv-bin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, makemkv-oss, libavcodec57, libavutil55,
+ libc6, libcairo2, libcrystalhd3, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgomp1,
+ libgsm1, liblzma5, libmp3lame0, libnuma1, libogg0, libopenjpeg5, libopus0, liborc-0.4-0,
+ libpixman-1-0, libpng16-16, libschroedinger-1.0-0, libshine3, libsnappy1v5, libsoxr0, libspeex1,
+ libssl1.0.0, libstdc++6, libswresample2, libtheora0, libtwolame0, libva1, libvorbis0a,
+ libvorbisenc2, libvpx3, libwavpack1, libwebp6, libwebpmux2, libx11-6, libx264-148, libx265-79,
+ libxau6, libxcb1, libxcb-render0, libxcb-shm0, libxdmcp6, libxext6, libxrender1, libxvidcore4,
+ libzvbi0, zlib1g
+Description: Convert video into free and patents-unencumbered format.
+ MakeMKV is a format converter, otherwise called "transcoder". It converts
+ the video clips from proprietary (and usually encrypted) disc into a set of
+ MKV files, preserving most information but not changing it in any way.
