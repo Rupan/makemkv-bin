@@ -45,6 +45,7 @@ install: tmp/eula_accepted bin/$(ARCH)/makemkvcon
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/flac.mmcp.xml
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/wdtv.mmcp.xml
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/aac-stereo.mmcp.xml
+	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/sdf.bin
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/blues.jar
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/blues.policy
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_deu.mo.gz
