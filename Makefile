@@ -36,29 +36,12 @@ tmp/eula_accepted:
 install: tmp/eula_accepted bin/$(ARCH)/makemkvcon
 	rm -f $(DESTDIR)$(PREFIX)/bin/makemkvcon
 	rm -f $(DESTDIR)$(PREFIX)/bin/mmdtsdec
-	rm -f $(DESTDIR)$(PREFIX)/share/MakeMKV/*.mo.gz
+	rm -f $(DESTDIR)$(PREFIX)/share/MakeMKV/*
 	install -d $(DESTDIR)$(PREFIX)/share/MakeMKV
 	install -d $(DESTDIR)$(PREFIX)/bin
 	install -t $(DESTDIR)$(PREFIX)/bin bin/$(ARCH)/makemkvcon
 	install -t $(DESTDIR)$(PREFIX)/bin bin/i386/mmdtsdec
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/default.mmcp.xml
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/flac.mmcp.xml
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/wdtv.mmcp.xml
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/aac-stereo.mmcp.xml
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/sdf.bin
+	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/appdata.tar
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/blues.jar
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/blues.policy
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_deu.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_jpn.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_spa.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_ptb.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_dut.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_swe.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_nor.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_ita.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_chi.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_pol.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_dan.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_fra.mo.gz
-	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/makemkv_per.mo.gz
 
