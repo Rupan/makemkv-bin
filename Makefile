@@ -40,7 +40,6 @@ install: tmp/eula_accepted bin/$(ARCH)/makemkvcon
 	install -d $(DESTDIR)$(PREFIX)/share/MakeMKV
 	install -d $(DESTDIR)$(PREFIX)/bin
 	install -t $(DESTDIR)$(PREFIX)/bin bin/$(ARCH)/makemkvcon
-	install -t $(DESTDIR)$(PREFIX)/bin bin/i386/mmdtsdec
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/appdata.tar
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/blues.jar
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/blues.policy
