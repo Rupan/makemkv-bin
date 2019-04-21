@@ -10,12 +10,12 @@ Vcs-Browser: https://github.com/Rupan/HLLib/makemkv-bin
 
 Package: makemkv-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libavcodec57, libavutil55, libc6, libcairo2, libcrystalhd3,
- libdrm2, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgcc-7-dev, libgomp1, libgsm1, liblzma5,
+Depends: ${shlibs:Depends}, ${misc:Depends}, libavcodec58, libavutil56, libc6, libcairo2, libcrystalhd3,
+ libdrm2, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgcc-8-dev, libgomp1, libgsm1, liblzma5,
  libmp3lame0, libnuma1, libogg0, libopenjp2-7, libopus0, libpixman-1-0, libpng16-16, libshine3, libsnappy1v5,
- libsoxr0, libspeex1, libssl1.0.0, libstdc++6, libswresample2, libtheora0, libtwolame0, libva2, libva-drm2,
+ libsoxr0, libspeex1, libssl1.1, libstdc++6, libswresample3, libtheora0, libtwolame0, libva2, libva-drm2,
  libva-x11-2, libvdpau1, libvorbis0a, libvorbisenc2, libvpx5, libwavpack1, libwebp6, libwebpmux3, libx11-6,
- libx264-152, libx265-146, libxau6, libxcb1, libxcb-render0, libxcb-shm0, libxdmcp6, libxext6, libxfixes3,
+ libx264-155, libx265-165, libxau6, libxcb1, libxcb-render0, libxcb-shm0, libxdmcp6, libxext6, libxfixes3,
  libxrender1, libxvidcore4, libzvbi0, makemkv-oss, zlib1g
 Description: Convert video into free and patents-unencumbered format.
  MakeMKV is a format converter, otherwise called "transcoder". It converts
