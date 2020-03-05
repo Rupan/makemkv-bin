@@ -6,7 +6,7 @@ Build-Depends: debhelper (>=9), makemkv-oss
 Standards-Version: 3.9.8
 Homepage: http://www.makemkv.com/
 Vcs-Git: https://github.com/Rupan/makemkv-bin.git
-Vcs-Browser: https://github.com/Rupan/HLLib/makemkv-bin
+Vcs-Browser: https://github.com/Rupan/makemkv-bin
 
 Package: makemkv-bin
 Architecture: any
