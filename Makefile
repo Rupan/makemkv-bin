@@ -43,4 +43,5 @@ install: tmp/eula_accepted bin/$(ARCH)/makemkvcon
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/appdata.tar
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/blues.jar
 	install -m 644 -t $(DESTDIR)$(PREFIX)/share/MakeMKV src/share/blues.policy
+	cd $(DESTDIR)$(PREFIX)/bin && ln -s -f makemkvcon sdftool
 
