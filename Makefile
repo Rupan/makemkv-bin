@@ -18,6 +18,26 @@ ARCH=amd64
 ARCH_OK=1
 endif
 
+ifeq ($(ARCH),armv6l)
+ARCH=armel
+ARCH_OK=1
+endif
+
+ifeq ($(ARCH),armv7l)
+ARCH=armel
+ARCH_OK=1
+endif
+
+ifeq ($(ARCH),armv8l)
+ARCH=armel
+ARCH_OK=1
+endif
+
+ifeq ($(ARCH),aarch64)
+ARCH=arm64
+ARCH_OK=1
+endif
+
 ifneq ($(ARCH_OK),1)
 $(error MakeMKV is currently not available for architecture $(ARCH))
 endif
