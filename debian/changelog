@@ -1,3 +1,9 @@
+makemkv-bin (1.16.5) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Mohr <akihana@gmail.com>  Mon, 27 Dec 2021 13:43:31 -0800
+
 makemkv-bin (1.16.4) unstable; urgency=medium
 
   * New upstream release.
