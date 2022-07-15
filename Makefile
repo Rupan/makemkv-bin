@@ -18,18 +18,13 @@ ARCH=amd64
 ARCH_OK=1
 endif
 
-ifeq ($(ARCH),armv6l)
-ARCH=armel
-ARCH_OK=1
-endif
-
 ifeq ($(ARCH),armv7l)
-ARCH=armel
+ARCH=armhf
 ARCH_OK=1
 endif
 
 ifeq ($(ARCH),armv8l)
-ARCH=armel
+ARCH=armhf
 ARCH_OK=1
 endif
 
